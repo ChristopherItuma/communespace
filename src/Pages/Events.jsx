@@ -31,7 +31,7 @@ const EventListing = () => {
 
       {/* Filter Section */}
       <select className="py-2 px-2 rounded-lg border-[#3A5A40] border-1" onChange={(e) => setFilter(e.target.value)}>
-        <option value="All">All Events</option>
+        <option value="All Events">All Events</option>
         <option value="Religious">Religious</option>
         <option value="Social">Social</option>
         <option value="Charity">Charity</option>
